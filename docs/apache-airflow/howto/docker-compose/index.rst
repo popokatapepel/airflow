@@ -147,6 +147,12 @@ On **all operating systems**, you need to run database migrations and create the
 
     docker compose up airflow-init
 
+make sure that you have pass installed
+
+.. code-block:: bash
+
+    sudo apt install pass
+
 After initialization is complete, you should see a message like this:
 
 .. parsed-literal::
